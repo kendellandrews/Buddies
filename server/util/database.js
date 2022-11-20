@@ -6,7 +6,7 @@ const sequelize = new Sequelize(CONNECTION_STRING, {
     dialect: 'postgres',
     dialectOptions: {
         ssl: {
-            rejectUnauthorized: false,
+            rejectUnauthorized: false,  /// adjust this false for when the site is live so others can get in
         }
     } 
 })
@@ -14,3 +14,5 @@ const sequelize = new Sequelize(CONNECTION_STRING, {
 module.exports = {
     sequelize
 }
+
+/// this entire page is a boilerplate, it will almost alaways be the same
