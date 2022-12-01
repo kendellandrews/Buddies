@@ -1,0 +1,61 @@
+.nav {
+	height: 80px;
+	/* background-image: url("../../images/pawel-czerwinski-APVgVX_yDDc-unsplash.jpg"); */
+	color: #444444;
+	padding: 0 10px;
+	align-self:flex-end;
+	background-size: cover;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.flex-row {
+	display: flex;
+	align-items: center;
+}
+div.flex-row {
+	display: flex;
+    align-items: center;
+	margin: 1;
+}
+.flex-row h2 {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.logo {
+	height: 50px;
+	margin-right: 10px;
+}
+
+.main-nav {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	color:#444444
+}
+
+.main-nav li {
+	padding: 0 10px;
+	font-size: 14px;
+
+}
+
+.logout-btn {
+	color:#444444;
+	text-decoration: none;
+	transition: .3s;
+	font-size: 1rem;
+	background: transparent;
+	border: none;
+	padding: 0;
+	margin: 0;
+	font-size: 1.5rem;
+	
+	
+}
+
+.logout-btn:hover {
+	color: #af3636;
+	transform: translateY(-3px)
+}

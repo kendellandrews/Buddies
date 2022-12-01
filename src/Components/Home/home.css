@@ -1,0 +1,7 @@
+.homeReturn {
+	display: flex;
+	gap: 50px;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 50px;
+}

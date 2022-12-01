@@ -3,7 +3,7 @@ const jwt = require('jsonwebtoken')
 const {SECRET} = process.env
 
 module.exports = {
-    isAuthenticated: (req, res, next) => {
+    isAuthorized: (req, res, next) => {
         const headerToken = req.get('Authorization')
 
         if (!headerToken) {

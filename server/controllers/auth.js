@@ -64,7 +64,7 @@ login: async (req, res) => {
     }
 } catch (error) {
     console.log('Error in register')
-    console.log(error)
+    // console.log(error)
     res.sendStatus(400)
 }},
 
